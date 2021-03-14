@@ -1,0 +1,53 @@
+Game Name 
+Treasure Eye
+
+Purpose
+This game is created for the purpose of quality testing, creating unit tests, debugging and fixing errors and bugs.
+
+Overview
+Look for the treasure in a locked room.
+
+Target Audience
+* Those interested in indie games.
+* Basic mystery, solving games.
+
+Gameplay 
+* There will be 9 items, when an item is found it will be stored in an inventory.
+* The 9 items will be a book, blood, a bucket, a compass, a vase, a poisonous dagger, a broken lamp, a carpet and a key.
+* The key will get rid of the black cover hiding the second room and open the hidden door.
+* If the first 6 items are found the cabinet covering the hidden door will move.
+
+Gameplay Mechanics
+* Main Menu, and victory menu.
+-Main menu buttons: play.
+-Victory menu buttons: exit.
+
+Game Engine and Language
+* Using unity with C#.
+
+Platforms
+* Created for Windows PC, possibly Linux PC, possibly Mac PC.
+
+Gameplay Features
+* A health bar to detect contact with the poisonous dagger, the poisonous dagger deals 2 damage to help indicate where it is hidden.
+* An inventory.
+
+Future Gameplay Features 
+* Add more rooms to find hidden objects.
+* Set a time limit on some rooms to find the objects in that room.
+* Create enemies that chase, stop and attack the player.
+
+Assets
+* The 9 items: a book, blood, a bucket, a compass, a vase, a poisonous dagger, a broken lamp, a carpet and a key.
+* The rooms decor: a front door, a hidden door, two cabinets, two tables, a round table, three stands, three working lamps providing light, two drawers.
+* A black cover and an inventory.
+
+UI
+* A main menu and a victory menu.
+* A health bar.
+* An inventory button and an inventory.
+* A button to use the key.
+
+Sound
+* Background sound that is ominous.
+* Button clicks.

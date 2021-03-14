@@ -1,0 +1,27 @@
+Purpose
+The purpose of this bug report is to document any issues, errors and problems that occur during developement of the game Treasure Eye.
+
+Pickup Script
+This is to document the bug that occurred in the Pickup script.
+
+Issue: Raycast bug with if statement
+A bug would occur when the raycast hit one of the objects. 
+If the raycast hit the poisonous dagger and the user clicked to add it to an inventory, it would be added in the first slot. 
+Then if the user clicked to add the blood it would be added to the second slot. Everything appeared to be working correctly.
+The bug occurred if the user clicked the blood first and added it to the inventory, then the poisonous dagger would automatically fill the first slot.
+
+Fix
+This bug occurred due to how the if statements and conditions were written. They were rewritten, at first the name of the gameobject collider was checked only.
+Fixed by checking both the name of the gameobject collider hit by the raycast and the name of the gameobject.
+
+EditMode Unit Tests
+
+Player Speed- tests if the player has a speed of three float
+Test passes
+Poison amount- tests if the poison amount is correct at a int of 2
+Test passes
+
+PlayMode Unit Tests
+
+Player health- test if the player starts with the correct health at 100 float
+Test  passes
